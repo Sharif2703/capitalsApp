@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.capitals-app-bg {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capitals-app-card {
+  background-color: #f8fafc;
+  padding: 30px;
+  border: 1px #323f4b solid;
+  border-radius: 18px;
+  height: 40%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.select {
+  margin-right: 8px;
+  width: 27%;
+  padding: 4px;
+  outline: none;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: medium;
+  font-family: 'Roboto';
+}
+
+.label-name {
+  color: #323f4b;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .capitals-app-card {
+    width: 90%;
+  }
+}
